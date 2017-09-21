@@ -137,6 +137,7 @@ def post_request(endpoint, credentials, command, url_params=None):
         request_data += url_params
 
     request = urllib.request.Request(endpoint, request_data)
+    request.add_header('Accept', '*')
 
     try:
         response = urllib.request.urlopen(request)
