@@ -48,3 +48,10 @@ The resulting vendor number(s) can then be used to get the actual reports. In th
 ```sh
 ./reporter.py -a 2821955 getSalesReport 85442109 Daily 20170718 -t "ITC_ACCESS_TOKEN"
 ```
+
+
+## TODO:
+
+- [ ] Cache reports
+- [ ] Parse reports
+- [ ] JSON output
